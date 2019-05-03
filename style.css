@@ -703,7 +703,9 @@ html
 {
 	color: #1BBD36;
 	border-bottom: inset #1BBD36 3px;
-	padding-bottom: 1%;
+    padding-bottom: 1%;
+    font-size: 1.5em;
+    color: #1BBD36;
 }
 .PackageDesc
 {
@@ -720,7 +722,7 @@ html
 	color:#169D2C;
 	padding: 1%;
 	font-weight: bold;
-	border: #1BBD36  solid 1px;
+	border: #1BBD36  solid 2px;
 }
 .featureTable
 {
@@ -737,9 +739,10 @@ html
     text-align: center;
     line-height: 30px;
 	width: 50%;
-	color:#169D2C;
+    color:#169D2C;
+    border: 2px solid #169D2C;
 	padding: 1%;
-	font-weight: bold;
+
 }
 .tableconsmin
 {
