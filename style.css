@@ -722,11 +722,11 @@ html
 	color:#169D2C;
 	padding: 1%;
 	font-weight: bold;
-	border: #1BBD36  solid 2px;
+	border: #1BBD36  solid 1px;
 }
 .featureTable
 {
-	width: 30%;
+	width: 29%;
 	margin: 2%;
 	border-bottom: dashed #8AC149 2px;
 }
@@ -737,10 +737,10 @@ html
 .descfeature
 {
     text-align: center;
-    line-height: 30px;
+    line-height: 29px;
 	width: 50%;
     color:#169D2C;
-    border: 2px solid #169D2C;
+    border: 1px solid #169D2C;
 	padding: 1%;
 
 }
