@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body,
+html {
+  height: 100%;
+  transition: all 0.5s ease;
+}

@@ -1,0 +1,88 @@
+body,
+html {
+  height: 100%;
+}
+.profile-img {
+  border-radius: 50%;
+}
+.p-5{
+    padding: 100px;
+}
+/* The hero image */
+.hero-image {
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 100px 100px 100px;
+}
+
+.bg-fluid {
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale();
+}
+
+/* arrow */
+.custom-shape-divider-bottom-1649729980 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1649729980 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 133px;
+}
+
+
+/* Icon */
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: rgb(255, 255, 255);
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f40083;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
