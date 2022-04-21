@@ -1,6 +1,25 @@
 import { Container, Grid, Typography, Card, CardContent } from "@mui/material";
 import "./Skill.css";
 import React from "react";
+import {ReactComponent as PhpIcon} from "../../assets/icons/php.svg";
+import {ReactComponent as JsIcon}  from "../../assets/icons/javascript.svg";
+import {ReactComponent as PythonIcon} from "../../assets/icons/python.svg";
+import {ReactComponent as CPlusIcon} from "../../assets/icons/cplusplus.svg";
+import {ReactComponent as LaravelIcon} from "../../assets/icons/laravel.svg";
+import {ReactComponent as CodeIgniterIcon} from "../../assets/icons/codeigniter.svg";
+import {ReactComponent as ReactIcon} from "../../assets/icons/react.svg";
+import {ReactComponent as BootstrapIcon} from "../../assets/icons/bootstrap.svg";
+import {ReactComponent as MaterialUiIcon} from "../../assets/icons/material-ui-seeklogocom.svg";
+import {ReactComponent as TailwindIcon} from "../../assets/icons/tailwindcss.svg";
+import {ReactComponent as VscodeIcon} from "../../assets/icons/visualstudiocode.svg";
+import {ReactComponent as GithubLogo } from "../../assets/icons/github.svg";
+import {ReactComponent as Gitlabicon} from "../../assets/icons/gitlab.svg";
+import {ReactComponent as AdobeXDIcon} from "../../assets/icons/adobexd.svg";
+import {ReactComponent as ComposerIcon} from "../../assets/icons/composer.svg";
+import {ReactComponent as HtmlIcon} from "../../assets/icons/html5.svg";
+import {ReactComponent as JavaIcon} from "../../assets/icons/java.svg";
+import {ReactComponent as MySqlIcon} from "../../assets/icons/mysql.svg";
+import {ReactComponent as GitIcon} from "../../assets/icons/git.svg";
 
 export default function Skill() {
   const skills = {
@@ -8,41 +27,31 @@ export default function Skill() {
       {
         name: "PHP",
         icon: (
-          <svg className="icon icon-php">
-            <use xlinkHref="#icon-php"></use>
-          </svg>
+          <PhpIcon className="icon" />
         ),
       },
       {
         name: "Java",
         icon: (
-          <svg className="icon icon-java">
-            <use xlinkHref="#icon-java"></use>
-          </svg>
+          <JavaIcon className="icon" />
         ),
       },
       {
         name: "JavaScript",
         icon: (
-          <svg className="icon icon-javascript">
-            <use xlinkHref="#icon-javascript"></use>
-          </svg>
+          <JsIcon className="icon" />
         ),
       },
       {
         name: "Python",
         icon: (
-          <svg className="icon icon-php">
-            <use xlinkHref="#icon-python"></use>
-          </svg>
+          <PythonIcon className="icon" />
         ),
       },
       {
         name: "C++",
         icon: (
-          <svg className="icon icon-cplusplus">
-            <use xlinkHref="#icon-cplusplus"></use>
-          </svg>
+          <CPlusIcon className="icon" />
         ),
       },
     ],
@@ -50,17 +59,13 @@ export default function Skill() {
       {
         name: "Laravel",
         icon: (
-          <svg className="icon icon-laravel">
-            <use xlinkHref="#icon-laravel"></use>
-          </svg>
+          <LaravelIcon className="icon" />  
         ),
       },
       {
         name: "Code Igniter",
         icon: (
-          <svg className="icon icon-codeigniter">
-            <use xlinkHref="#icon-codeigniter"></use>
-          </svg>
+          <CodeIgniterIcon className="icon" />  
         ),
       },
     ],
@@ -68,33 +73,25 @@ export default function Skill() {
       {
         name: "React JS",
         icon: (
-          <svg className="icon icon-react">
-            <use xlinkHref="#icon-react"></use>
-          </svg>
+          <ReactIcon className="icon" />
         ),
       },
       {
         name: "Bootstrap",
         icon: (
-          <svg className="icon icon-bootstrap">
-            <use xlinkHref="#icon-bootstrap"></use>
-          </svg>
+          <BootstrapIcon className="icon" />
         ),
       },
       {
         name: "Material UI",
         icon: (
-          <svg className="icon icon-material-ui-seeklogocom">
-            <use xlinkHref="#icon-material-ui-seeklogocom"></use>
-          </svg>
+          <MaterialUiIcon className="icon" />
         ),
       },
       {
         name: "Tailwinds",
         icon: (
-          <svg className="icon icon-tailwindcss">
-            <use xlinkHref="#icon-tailwindcss"></use>
-          </svg>
+          <TailwindIcon className="icon" />
         ),
       },
     ],
@@ -102,57 +99,43 @@ export default function Skill() {
       {
         name: "Git",
         icon: (
-          <svg className="icon icon-git">
-            <use xlinkHref="#icon-git"></use>
-          </svg>
+          <GitIcon className="icon" />
         ),
       },
       {
         name: "Visual Studio Code",
         icon: (
-          <svg className="icon icon-visualstudiocode">
-            <use xlinkHref="#icon-visualstudiocode"></use>
-          </svg>
+          <VscodeIcon className="icon" />
         ),
       },
       {
         name: "Github",
         icon: (
-          <svg className="icon icon-github">
-            <use xlinkHref="#icon-github"></use>
-          </svg>
+          <GithubLogo className="icon" />
         ),
       },
       {
         name: "GitLab",
         icon: (
-          <svg className="icon icon-gitlab">
-            <use xlinkHref="#icon-gitlab"></use>
-          </svg>
+          <Gitlabicon className="icon" />
         ),
       },
       {
         name: "MySQL",
         icon: (
-          <svg className="icon icon-mysql">
-            <use xlinkHref="#icon-mysql"></use>
-          </svg>
+          <MySqlIcon className="icon" />
         ),
       },
       {
         name: "Adobe XD",
         icon: (
-          <svg className="icon icon-adobexd">
-            <use xlinkHref="#icon-adobexd"></use>
-          </svg>
+          <AdobeXDIcon className="icon" />
         ),
       },
       {
         name: "Composer",
         icon: (
-          <svg className="icon icon-composer">
-            <use xlinkHref="#icon-composer"></use>
-          </svg>
+          <ComposerIcon className="icon" />
         ),
       },
     ],
