@@ -89,7 +89,7 @@ export default function Skill() {
         ),
       },
       {
-        name: "Tailwinds",
+        name: "Tailwind",
         icon: (
           <TailwindIcon className="icon" />
         ),
